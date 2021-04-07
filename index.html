@@ -5,13 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
     <title>Bootstrap</title>
 </head>
 
 <body>
-    <h1>Bootstrap</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/GLStudio.png" alt="" width="60" height="48" class="d-inline-block align-text-top">
+            </a>
+            <!-- <a class="navbar-brand" href="#">GlobalLabs Academy</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Who we are</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Partners</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="who-we-are ">
+        <div class="container-fluid text-center space">
+            <h3>Who we are</h3>
+            <img class="rounded-circle"
+                src="https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="who we are" width="400" height="400">
+            <h3>We are a team committed to results.</h3>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container-fluid text-center space">
+            <h3>Partners</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="https://hermes.digitalinnovation.one/site/images/logo-sm-white.png" alt="DIO"
+                            width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://hermes.digitalinnovation.one/site/images/logo-sm-white.png" alt="DIO"
+                            width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://hermes.digitalinnovation.one/site/images/logo-sm-white.png" alt="DIO"
+                            width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
